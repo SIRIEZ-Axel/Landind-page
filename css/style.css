@@ -1,0 +1,22 @@
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.item1 {
+    background-color: #FF6347;
+    border: none;
+    border-radius:50px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    color: white;
+    padding-left: 10px;
+}
