@@ -1,0 +1,36 @@
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    padding-top: 2px;
+}
+
+.item1 {
+    background-color: #FF6347;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.item7 {
+    margin-left: 770px;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    border-color: #FF6347;
+    color: #FF6347;
+}
