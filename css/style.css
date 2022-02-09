@@ -1,13 +1,21 @@
 body {
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/** Barre de nav**/
 .nav {
     display: flex;
-    gap: 10px;
-    margin-top: 50px;
+    gap: 15px;
+    margin-top: 60px;
+    align-items: baseline;
+}
+
+.feature {
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
 }
 
 a{
@@ -16,21 +24,62 @@ a{
     padding-top: 2px;
 }
 
-.item1 {
+.titre {
     background-color: #FF6347;
     border-radius: 50px;
     width: 30px;
     height: 30px;
-    color: white;
-    text-align: center;
 }
 
+.titre, .feature {
+    color: black;
+}
 
 .item7 {
-    margin-left: 770px;
+    margin-left: 205px;
     border: solid 1px;
     border-radius: 10px;
     padding: 15px 10px 15px 10px;
     border-color: #FF6347;
     color: #FF6347;
 }
+
+/** premiere page**/
+.h1 {
+    font-size: 500%;
+    color: rgb(30, 30, 30);
+}
+
+p {
+    color: rgb(182, 179, 179);
+}
+
+.help {
+    font-size: 120%;
+    color: rgb(182, 179, 179);
+    margin-top: -35px;
+    margin-bottom: 65px;
+}
+
+.illu {
+    float: right;
+}
+
+.device {
+    margin-top: 20px ;
+}
+.demo {
+    border-radius: 5px;
+    color: white;
+    padding: 17px 17px 17px 17px;
+    background-color: #FF6347;
+    margin: 0px 10px 0px 0px;
+}
+
+.illustration {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+/** deuxième page**/
+
