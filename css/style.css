@@ -4,7 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/** Barre de nav**/
+/** ----------------------------------- Barre de nav**/
 .nav {
     display: flex;
     gap: 15px;
@@ -44,7 +44,7 @@ a{
     color: #FF6347;
 }
 
-/** premiere page**/
+/** -------------------------------- premiere page**/
 .h1 {
     font-size: 500%;
     color: rgb(30, 30, 30);
@@ -78,8 +78,181 @@ p {
 
 .illustration {
     margin-top: 70px;
-    margin-bottom: 120px;
+    margin-bottom: 180px;
 }
 
-/** deuxième page**/
+/** --------------------------------- deuxième page**/
+.background {
+    background-color: #FF6347;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marque {
+    margin-bottom: 200px;
+    padding: 50px 0 0 0;
+    
+}
+
+.facebook, .google, .coca, .samsung {
+    height: 50px;
+    width: 145px;
+    padding-left: 70px;
+    filter: grayscale(100%);
+}
+
+.facebook {
+    filter: grayscale(100%);
+    padding-left: -70px;
+}
+
+.linkedin {
+    filter: grayscale(100%);
+    height: 70px;
+    width: 120px;
+    padding-left: 70px;
+}
+
+/** ----------------------------- Troisième page**/
+.real {
+    margin: 0 0 200px 0;
+}
+
+.Illustrator-1{
+    float: right;
+}
+
+.real-time {
+    font-size: 500%;
+    color: rgb(30, 30, 30);
+}
+
+.learn-button {
+    color: #FF6347;
+}
+
+.lorem {
+    width: 450px;
+    line-height: 30px;
+}
+
+/** -----------------------------------quatrieme page**/
+.price {
+    margin: 0 0 200px 0;
+}
+
+.flexible {
+    max-width: 1100px;
+    padding: 0 10px 0 100px;
+}
+
+.plan {
+    font-size: 450%;
+    color: rgb(30, 30, 30);
+}
+
+.list-price {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.starter-plan, .silver-plan, .diamond-plan {
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: rgba(190, 190, 190, 0.781);
+    box-shadow: 1px 1px 8px rgb(145, 145, 145);
+    padding: 50px 50px 0px 50px;
+}
+
+.item-ul {
+    padding: 0;
+    line-height: 25px;
+}
+
+.price-bold {
+    color: black;
+    font-weight: bolder;
+}
+
+.supp {
+    font-size: small;
+}
+
+.get1, .get2 {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.get1 {
+    color: #FF6347;
+    border-color: #FF6347;
+}
+
+.get2 {
+    color: white;
+    background-color: #FF6347;
+}
+
+.margin-butt {
+    margin: 50px 0 70px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  top: 0.2rem;
+  content: "";
+  background-image: url(css/vmoji.png);
+  background-size: contain;
+}
+
+/** -------------------------------------cinquième page**/
+.illustrator {
+    background-color: #FF6347;
+}
+.vingt-million {
+    margin: 0 300px 0 0;
+    font-size: 400%;
+    color: white;
+    margin: 0 auto;
+}
+
+.h-demo  {
+    font-size: 170%;
+    color: white;
+    margin: 0 300px 30px 300px;
+}
+
+.free-demo {
+    background-color: white;
+    border-radius: 5px;
+    padding: 11px 11px 11px 11px;
+    color: #FF6347;
+    margin: 0px 480px 0px 480px;
+}
+/** ------------------------------------------footer**/
+.foot {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+
 
