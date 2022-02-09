@@ -247,12 +247,17 @@ display: inline-block;
 /** ------------------------------------------footer**/
 .foot {
     display: flex;
-    width: 500px;
     justify-content: space-between;
     align-items: baseline;
 }
 
+.p-foot {
 
+}
 
-
+.privacy {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
 
