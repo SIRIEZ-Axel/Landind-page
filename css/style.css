@@ -18,7 +18,7 @@ div.nav {
     margin-left: 300px;
 }
 
-a{
+a {
     text-decoration: none;
     outline: none;
     padding-top: 2px;
@@ -29,19 +29,24 @@ span.header-xpense {
     border-radius: 50px;
     width: 30px;
     height: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
 }
 
 .item1 {
     color: white;
+    margin: 0 10px ;
+    font-weight: bold;
 }
 
 .item2, .item3, .item4, .item5, .item6 {
     color: black;
+    font-weight: bold;
 }
 
 .item7 {
-    margin-left: 205px;
+    margin-left: 180px;
     border: solid 1px;
     border-radius: 10px;
     padding: 15px 10px 15px 10px;
@@ -88,8 +93,9 @@ p {
 
 /** --------------------------------- deuxième page**/
 .background {
-    background-color: #FF6347;
     padding: 75px 0 0 0;
+    background-image: url(orange.jpg);
+    margin: auto;
 }
 
 div.image {
@@ -112,10 +118,10 @@ div.image {
     width: 145px;
     padding-left: 70px;
     filter: grayscale(100%);
+    opacity: 0.33;
 }
 
 .facebook {
-    filter: grayscale(100%);
     padding-left: -70px;
 }
 
@@ -124,6 +130,7 @@ div.image {
     height: 70px;
     width: 120px;
     padding-left: 70px;
+    opacity: 0.33;
 }
 
 /** ----------------------------- Troisième page**/
@@ -219,9 +226,9 @@ ul {
 /** -------------------------------------cicinquième page**/
 .illustrator {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FF6347;
-    padding: 75px 0;
-    margin: 75px 0;
+    background-image: url(orange.jpg);
+    margin: auto;
+    padding: 100px 0;
 }
 
 div.vingt-million {
