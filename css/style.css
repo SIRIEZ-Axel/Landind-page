@@ -1,14 +1,14 @@
-body {
+.real, .price, .illustration, .nav, .marque, footer  {
     max-width: 1100px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /** ----------------------------------- Barre de nav**/
-.nav {
+div.nav {
     display: flex;
     gap: 15px;
-    margin-top: 60px;
+    margin-top: 50px;
     align-items: baseline;
 }
 
@@ -24,14 +24,19 @@ a{
     padding-top: 2px;
 }
 
-.titre {
+span.header-xpense {
     background-color: #FF6347;
     border-radius: 50px;
     width: 30px;
     height: 30px;
+    text-align: center;
 }
 
-.titre, .feature {
+.item1 {
+    color: white;
+}
+
+.item2, .item3, .item4, .item5, .item6 {
     color: black;
 }
 
@@ -78,15 +83,17 @@ p {
 
 .illustration {
     margin-top: 70px;
-    margin-bottom: 180px;
+    margin-bottom: 300px;
 }
 
 /** --------------------------------- deuxième page**/
 .background {
     background-color: #FF6347;
-    height: 700px;
-    width: 1200px;
-    margin: 0 auto;
+    padding: 75px 0 0 0;
+}
+
+div.image {
+    display: flex; 
 }
 
 .image {
@@ -120,8 +127,8 @@ p {
 }
 
 /** ----------------------------- Troisième page**/
-.real {
-    margin: 0 0 200px 0;
+div.real {
+    margin-bottom: 200px;
 }
 
 .Illustrator-1{
@@ -143,15 +150,15 @@ p {
 }
 
 /** -----------------------------------quatrieme page**/
-.price {
-    margin: 0 0 200px 0;
-}
-
 .flexible {
     max-width: 1100px;
     padding: 0 10px 0 100px;
+    margin: 100px 0;
 }
 
+.price {
+    margin-bottom: 200px;
+}
 .plan {
     font-size: 450%;
     color: rgb(30, 30, 30);
@@ -209,56 +216,128 @@ ul {
     list-style-type: none;
 }
 
-li::before {
-display: inline-block;
-  position: relative;
-  width: 1em;
-  height: 1em;
-  top: 0.2rem;
-  content: "";
-  background-image: url(css/vmoji.png);
-  background-size: contain;
-}
-
-/** -------------------------------------cinquième page**/
+/** -------------------------------------cicinquième page**/
 .illustrator {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #FF6347;
-}
-.vingt-million {
-    margin: 0 300px 0 0;
-    font-size: 400%;
-    color: white;
-    margin: 0 auto;
+    padding: 75px 0;
+    margin: 75px 0;
 }
 
-.h-demo  {
+div.vingt-million {
+    display: flex;
+    justify-content: center;
+}
+
+.vingt-million {
     font-size: 170%;
     color: white;
-    margin: 0 300px 30px 300px;
+    margin: 0;
 }
 
-.free-demo {
+div.h-demo {
+    display: flex;
+    justify-content: center;
+}
+.h-demo  {
+    font-size: 120%;
+    color: white;
+}
+
+div.free-demo {
+    display: flex;
+    justify-content: center;
+}
+
+a.free-demo {
     background-color: white;
     border-radius: 5px;
     padding: 11px 11px 11px 11px;
     color: #FF6347;
     margin: 0px 480px 0px 480px;
 }
+
+img.free-demo {
+    display: flex;
+}
+
+div.img-illu {
+    display: flex;
+    justify-content: center;
+}
+
 /** ------------------------------------------footer**/
+
 .foot {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.p-foot {
+span.foot-xpense {
+    display: flex;
+    gap: 7px;
+}
 
+h3.foot-xpense {
+    background-color: #FF6347;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.foot-a {
+    color: black;
+    line-height: 30px;
+}
+
+.foot-ul{
+    padding: 0;
 }
 
 .privacy {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    border-top: solid 2px rgb(223, 223, 223);
 }
 
+.line-spacing {
+    display: flex;
+    gap: 50px;
+    color: black;
+}
+
+.logo-container {
+    display: flex;
+    gap: 10px;
+}
+.foot-logo {
+    height: 15px;
+    width: 15px;
+}
+
+div.form {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 7px 7px;
+}
+input.form {
+    border: white;
+    font-size: larger;
+    padding: 5px 0;
+}
+
+a.form {
+    color: white;
+    background-color: #FF6347;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
 
