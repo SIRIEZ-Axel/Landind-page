@@ -187,7 +187,7 @@ div.real {
 
 .item-ul {
     padding: 0;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .price-bold {
@@ -237,9 +237,10 @@ div.vingt-million {
 }
 
 .vingt-million {
-    font-size: 170%;
+    font-size: 200%;
     color: white;
-    margin: 0;
+    margin: 0 170px;
+    text-align: center;
 }
 
 div.h-demo {
@@ -247,7 +248,7 @@ div.h-demo {
     justify-content: center;
 }
 .h-demo  {
-    font-size: 120%;
+    font-size: 150%;
     color: white;
 }
 
@@ -337,7 +338,7 @@ div.form {
 }
 input.form {
     border: white;
-    font-size: larger;
+    font-size: 120%;
     padding: 5px 0;
 }
 
