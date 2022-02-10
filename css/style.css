@@ -30,7 +30,6 @@ span.header-xpense {
     width: 30px;
     height: 30px;
     display: flex;
-    justify-content: baseline;
     gap: 10px;
 }
 
@@ -119,10 +118,6 @@ div.image {
     padding-left: 70px;
     filter: grayscale(100%);
     opacity: 0.33;
-}
-
-.facebook {
-    padding-left: -70px;
 }
 
 .linkedin {
